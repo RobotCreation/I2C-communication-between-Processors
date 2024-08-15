@@ -12,6 +12,8 @@ First step was to replicate what already is available on internet which is Pico 
 ![Image1](https://github.com/user-attachments/assets/e6ec01bc-53f9-495d-a87c-e3d81cdc774c)
 ![Image2](https://github.com/user-attachments/assets/2cf411a6-a8f2-44cc-9e6d-16a48410232f)
 
+In this setup, The pico is the Master using I2C0 on Pins GP16-SDA and GP17-SCL to communicate with the Arduino.  The databus is connected to the Arduino which is configured as slave at address 10 (0xA Hex) and also to an OLED display at address 60 (0x3C Hex).
+The Pico can write to the OLED via databus and also I connected another OLED connected to I2C1, however it is not possible for the Arduino to communicate with the OLED on the databus and I had to disable the initiation as it would create conflict in the Arduino interrupt commands.
 
 
 
