@@ -6,11 +6,10 @@ I need the Pico to act as the slave to another Pico which runs the clock as mast
 
 Pico as Master - Arduino as Slave
 First step was to replicate what already is available on internet which is Pico as Master and Arduino as Slave.  There are a number of examples and I combined a few of them to make a working model of an Arduino connected to an Ultrasound transducer - MaxSonar which I had available to send distance data to a Pico that acts as the master. 
-![20240815_102602](https://github.com/user-attachments/assets/637acf68-a19b-4d72-8f0e-42d427dc8a9c)
+![20240815_102602](https://github.com/user-attachments/assets/1b0e9583-226e-419a-a9e9-cb47b47ef424)
+![Image1](https://github.com/user-attachments/assets/e6ec01bc-53f9-495d-a87c-e3d81cdc774c)
+![Image2](https://github.com/user-attachments/assets/2cf411a6-a8f2-44cc-9e6d-16a48410232f)
 
-![Image1](https://github.com/user-attachments/assets/2541d0f0-5e62-4c5b-8786-70a40f26dd52)
-
-![Image2](https://github.com/user-attachments/assets/9137b7f4-f248-4419-bb27-b9e32e466110)
 
 
 
