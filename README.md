@@ -8,6 +8,7 @@ Pico as Master - Arduino as Slave
 First step was to replicate what already is available on internet which is Pico as Master and Arduino as Slave.  There are a number of examples and I combined a few of them to make a working model of an Arduino connected to an Ultrasound transducer - MaxSonar which I had available to send distance data to a Pico that acts as the master. 
 
 ![20240815_102602](https://github.com/user-attachments/assets/1b0e9583-226e-419a-a9e9-cb47b47ef424)
+
 ![Image1](https://github.com/user-attachments/assets/e6ec01bc-53f9-495d-a87c-e3d81cdc774c)
 ![Image2](https://github.com/user-attachments/assets/2cf411a6-a8f2-44cc-9e6d-16a48410232f)
 
