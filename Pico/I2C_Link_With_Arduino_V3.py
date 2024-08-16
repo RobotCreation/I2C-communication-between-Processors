@@ -1,6 +1,6 @@
 '''
 Module: I2C_Link_With_Arduino_V3.py
-
+https://github.com/robotcreation
 Firmware: MicroPython v1.23.0 on 2024-06-02; Raspberry Pi Pico with RP2040
 Description:    This module is linking an arduino with a MaxSonar
                 to the Pico via an I2C link and displays the Range 
